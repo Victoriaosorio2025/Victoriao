@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de vida</title>
+ 
+  
+  <style>
+    body {
+      font-family: Calibri;
+      margin: 0;
+      padding: 0;
+      background-color: aqua;
+    }
+
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: grey;
+      padding: 20px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    h1,
+    h2,
+    h3 {
+      background-color: greenyellow;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .info-personal
+    .experiencialaboral,
+    .educacion-capacitación-entrenamiento,
+    .estadocivil,
+    .contacto,
+    .cargo-Empresa-Funciones,
+    .HabilidadesBlandas,
+    .habilidades{
+      margin-left:10px;
+    }
+   
+
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <div style="text-align:center">
+
+      <img src="https://images.pexels.com/photos/7679650/pexels-photo-7679650.jpeg?auto=compress&cs=tinysrgb&w=100"/>
+    </div>
+
+    <h1><b>Victoria Alexandra Osorio Suaza</b></h1>
+    <p><strong>Email:</strong> verboing@yahoo.com | <strong>Teléfono:</strong> 312 3794357</p>
+    <p><strong>Dirección:</strong> Calle 9 18-125. Salgar. Puerto Colombia</p>
+
+    <div class="section">
+      <h2><b>Competencias profesionales</b></h2>
+      <p>Profesional en seguridad y salud en el trabajo, estudiante de programación para desarrollo WEB, aplicado a la
+        prevención de riesgos, intervención de la accidentalidad, gestión de emergencias y diversos escenarios de
+        riesgos individuales y colectivos en los ambientes laborales de la región caribe y del país.</p>
+    </div>
+
+    <div class="section">
+      <h2><b>Experiencia Laboral</b></h2>
+      <p>A lo largo de los últimos 25 años de experiencia en el ámbito de seguridad y salud en el trabajo; he logrado
+        desarrollar proyectos de control de accidentalidad. Gestión y fidelización de clientes. Creación de capacidades
+        para la administración de riesgos laborales. Gestión de emergencias y continuidad del negocio. Desarrollo de
+        herramientas lúdicas para el fortalecimiento de conceptos y desarrollo de habilidades de conocimiento. Lo
+        anterior en los sectores productivos, manufacturero, servicios, comercial y financiero, tecnológico y de
+        desarrollo WEB.</p>
+      <div class="experiencia">
+        <h2><b>Cargo-Empresa-Funciones</b></h3>
+          <p><b> Desde: Enero/Año: 2018</b></p>
+          <p><b> Hasta: Actualmente</b></p>
+          <ul>
+            <li>Funciones y logros 1</li>
+            <p>Asesora riesgos laborales. Soma Consultores Ltda. Implementación de metodologías en prevención de riesgos
+              e intervención de accidentalidad y situaciones de riesgo colectivo. Desarrollo de actividades lúdicas de
+              creación de capacidades para la gestión de riesgos, toma de decisiones y cultura en seguridad y salud en
+              el trabajo</p>
+
+            <p><b>Desde: Enero/Año: 2018</b></p>
+            <p><b>Hasta: Actualmente</b></p>
+
+            <li>Funciones y logros 2</li>
+            <p>Coordinadora sistema gestión en seguridad y salud en el trabajo. MGP Ingeniería S.A.S. Coordinación del
+              sistema de gsetión en seguridad y salud en el trabajo en el contexto de la gestión ambiental e
+              implementación RUC/CCS. Desarrollo de acciones en el marco de la gestión de riesgos. ISO 31000:2010.</p>
+
+      </div>
+      <div class="section">
+        <h2>Educación-Capacitación y Entrenamiento</h2>
+        <div class=<b>"Auditoria interna RUC. Auditoria interna sistemas integrados de gestión. Especialista en higiene
+          industrial. Profesional en seguridad y salud en el trabajo. Tecnóloga en gestión ambiental y salud
+          ocupacional."</b>
+
+        </div>
+      </div>
+
+      <div class="section">
+        <h2><b>Habilidades</b></h2>
+        <div class="habilidades">
+          <ul>
+            <li>Habilidad técnica 1: Formación de equipo de alto desempeño. Enfocado en COPASST. Comités de convivencia
+              y brigadas de emergencias.</li>
+            <li>Habilidad técnica 2: Facilitadora en la entrega de contenidos en seguridad y salud en el trabajo.
+              Desarrollo de programas de capacitación y entrenamiento, para equipos de apoyo en seguridad y salud en el
+              trabajo.</li>
+
+      <div class="section">
+        <h2><b>Habilidades Blandas</b></h2>
+        <div class="Habilidades Blandas"
+            <li>Habilidad Humana 1: Trabajo en equipo para el desarrollo de proyectos de interdependencia y
+              colaborativos en los entornos laborales e industriales.</li>
+            <li>Habilidad Humana 2: Resiliencia y facilidad al cambio para la implementación de acciones masivas
+                    de intervención. Cumplimiento de objetivos y seguimiento a metas e indicadores de cumplimiento.</li>
+
+                    <table border="2">
+                      <h2><b>Estado Civil</b></h2>
+<table>
+  <th><input type="checkbox" name="" "Soltero">Soltero
+      <th><input type="checkbox" name="Casado">Casado
+</table>
+
+      </div>
+    </div>
+         <h2><b>Contacto</b></h2>
+      <form action="procesar.php" method="post">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+  
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+  
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+  
+      <input type="submit" value="Enviar">
+    </form>
+
+
+
+
+
+
+
+
+    </html>
+    
+
+</body>
+</html>
